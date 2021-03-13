@@ -39,6 +39,7 @@ public class DirectRabbitConfig {
     @Bean
     public DirectExchange TestDirectExchange() {
         return new DirectExchange("TestDirectExchange", true, false);
+
     }
 
     /**
